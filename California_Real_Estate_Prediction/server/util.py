@@ -36,13 +36,13 @@ def load_saved_artifacts():
     global __data_columns
     global __locations
 
-    with open("C:/Users/029338502/MachineLearning/artifacts/columns.json", "r") as f:
+    with open("C:/Users/029338502/MachineLearning/California_Real_Estate_Prediction/artifacts/columns.json", "r") as f:
         __data_columns = json.load(f)['data_columns']
         # __locations = __data_columns[0:4]  # first 3 columns are sqft, bath, bhk
 
     global __model
     if __model is None:
-        with open('C:/Users/029338502/MachineLearning/artifacts/house_value_prediction_model.pickle', 'rb') as f:
+        with open('C:/Users/029338502/MachineLearning/California_Real_Estate_Prediction/artifacts/house_value_prediction_model.pickle', 'rb') as f:
             __model = pickle.load(f)
     print("loading saved artifacts...done")
 

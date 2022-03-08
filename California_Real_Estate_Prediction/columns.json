@@ -1,0 +1,1 @@
+{"data_columns": ["longitude", "latitude", "housing_median_age", "households", "median_income", "ocean_proximity_<1h ocean", "ocean_proximity_inland", "ocean_proximity_island", "ocean_proximity_near bay", "ocean_proximity_near ocean"]}
